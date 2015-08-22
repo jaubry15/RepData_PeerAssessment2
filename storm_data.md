@@ -21,7 +21,6 @@ require(gridExtra)
 First, we download the data file and unzip it.
 
 ```r
-setwd("C:\Users\Jared\Desktop\Coursera\Reproducible Research\RepData_PeerAssessment2")
 
 if (!"stormData.csv.bz2" %in% dir("./data/")) {
     print("hhhh")
